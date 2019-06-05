@@ -1,0 +1,46 @@
+:root {
+  --color-1: #ffe1d1;
+  --color-2: #ffdbca;
+}
+
+body {
+  font-family: Alegreya, serif;
+  background: linear-gradient(to left, var(--color-1), var(--color-2));
+}
+
+.header {
+  display: grid;
+  grid-template-columns: 20% 1fr;
+  align-content: center;
+  font-weight: bold;
+  font-size: 1.25rem;
+}
+
+.header-logo {
+  align-self: center;
+  justify-self: center;
+}
+
+.headel-letter {
+  font-size: 1.5em;
+  color: #6a4a39;
+}
+
+.menu {
+  display: flex;
+  justify-content: flex-end;
+  /*! align-items: center; */
+  padding: 0;
+  opacity: 0.7;
+  list-style: none;
+}
+
+.menu-item {
+  /* margin: 0 47px; */
+  margin: 0 2.35em;
+}
+
+.menu-item:last-of-type {
+  color: #FF7676;
+  border-bottom: 4px solid #F8D1BE;
+}
